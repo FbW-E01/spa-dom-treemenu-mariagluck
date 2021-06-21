@@ -17,3 +17,16 @@ const allTreeLi = tree.querySelectorAll("li");
     }  
     childrenUl.hidden = !childrenUl.hidden;
  });
+
+
+
+
+
+
+
+//this is a short version that doesn't show pointer and bold on hover
+
+tree.addEventListener('click', e => {
+    const children = e.target.childNodes;
+    children.forEach(child => child.hidden = !child.hidden);
+});
