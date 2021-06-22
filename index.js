@@ -1,3 +1,4 @@
+const tree = document.querySelector("#tree");
 const allTreeLi = tree.querySelectorAll("li");
 
  for (let li of allTreeLi) {
@@ -26,7 +27,7 @@ const allTreeLi = tree.querySelectorAll("li");
 
 //this is a short version that doesn't show pointer and bold on hover
 
-tree.addEventListener('click', e => {
-    const children = e.target.childNodes;
-    children.forEach(child => child.hidden = !child.hidden);
-});
+// tree.addEventListener('click', e => {
+//     const children = e.target.childNodes;
+//     children.forEach(child => child.hidden = !child.hidden);
+// });
