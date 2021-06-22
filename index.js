@@ -31,3 +31,16 @@ const allTreeLi = tree.querySelectorAll("li");
 //     const children = e.target.childNodes;
 //     children.forEach(child => child.hidden = !child.hidden);
 // });
+
+
+//other version
+// tree.addEventListener("click", (e) => {
+//     const nestedList = e.target.querySelector("ul");
+//     if (nestedList) {
+//         if (!nestedList.style.display) {
+//         nestedList.style.display = "none";
+//     } else {
+//         nestedList.style.display = "";
+//     }
+//   } 
+// });
